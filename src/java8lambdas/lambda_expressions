@@ -1,0 +1,25 @@
+1. greetingFunction = ()-> System.out.println("Hello World");
+
+/* above is a variable named `gretingFunction` which holds the function that takes no arguments and the body of that
+function is ` {System.out.println("Hello World");} `    */
+
+greet(greetingFunction);
+
+greet(()-> System.out.println("Hello World"));
+
+public void greet(____){
+        ____();
+    }
+
+
+2. doubleNumberFunction = (int a)-> a*2;
+
+/* above is a variable named `doubleNumberFunction` which holds the function that takes an integer as an argument and
+the body of that function is ` {return a*2;}; `    */
+
+3. safeDevideFunction = (int a, int b) -> {
+ if(b==0) return 0;
+return a/b;
+};
+
+4. stringLengthCountFunction = (String s)-> s.length();
